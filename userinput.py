@@ -17,5 +17,10 @@ print(f"The area of rectangle is {area} cm square.")
 
 #Exercise 3: A shopping cart program.
 
-item1
+item = input("What item do you want to buy? ")
+price = float(input("Enter the price of that item? "))
+quantity = int(input("How many items would you like to buy?"))
+total = price * quantity
+print(f"You bought {quantity} {item}'s.")
+print(f"The total price of {item}'s is {total} rupees.")
 
