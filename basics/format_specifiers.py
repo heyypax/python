@@ -10,3 +10,13 @@
 # := - place the sign to the leftmost position of the number.
 # :  - insert a space before positive numbers.
 # :, - comma separator.
+
+# Example usage:
+
+price1 = -566.798677896
+price2 = 5263.723889
+price3 = 723897.23777
+
+print(f"Price of item 1: {price1:+,.2f}")
+print(f"Price of item 2: {price2:+,.2f}")
+print(f"Price of item 3: {price3:+,.2f}")
