@@ -1,0 +1,1 @@
+#Collection - single variable that can hold multiple values.
